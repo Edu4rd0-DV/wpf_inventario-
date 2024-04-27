@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\vreporte.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\vreporte.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\vreporte.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\vreporte.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\venta_ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\venta_ui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\empleadoui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\empleadoui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\inventarioui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\inventarioui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\menu_empleado.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\menu_empleado.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|c:\\users\\eduar\\downloads\\modulo_wpf\\modulo_wpf\\dise\u00F1o-ui\\menu_gerente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E90BCF14-7B17-43D2-AD7C-CB66E4963017}|Dise\u00F1o-UI\\Dise\u00F1o-UI.csproj|solutionrelative:dise\u00F1o-ui\\menu_gerente.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Venta_UI.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Venta_UI.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\Venta_UI.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Venta_UI.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\Venta_UI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:17:58.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vReporte.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\vReporte.xaml.cs",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\vReporte.xaml.cs",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\vReporte.xaml.cs*",
+              "RelativeToolTip": "Dise\u00F1o-UI\\vReporte.xaml.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T18:17:27.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Window1.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\Window1.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Window1.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:17:19.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vReporte.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\vReporte.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\vReporte.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\vReporte.xaml*",
+              "RelativeToolTip": "Dise\u00F1o-UI\\vReporte.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:17:08.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpleadoUI.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\EmpleadoUI.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\EmpleadoUI.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\EmpleadoUI.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\EmpleadoUI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:16:43.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventarioUI.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\InventarioUI.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\InventarioUI.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\InventarioUI.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\InventarioUI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:16:29.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Login.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\Login.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Login.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:16:27.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu_Empleado.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Menu_Empleado.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\Menu_Empleado.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Menu_Empleado.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\Menu_Empleado.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:16:24.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu_Gerente.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Menu_Gerente.xaml",
+              "RelativeDocumentMoniker": "Dise\u00F1o-UI\\Menu_Gerente.xaml",
+              "ToolTip": "C:\\Users\\eduar\\Downloads\\Modulo_WPF\\Modulo_WPF\\Dise\u00F1o-UI\\Menu_Gerente.xaml",
+              "RelativeToolTip": "Dise\u00F1o-UI\\Menu_Gerente.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T18:16:19.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

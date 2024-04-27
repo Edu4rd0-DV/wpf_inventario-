@@ -1,0 +1,61 @@
+﻿<Controls:MetroWindow x:Class="Diseño_UI.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diseño_UI"
+        mc:Ignorable="d"
+         xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      
+        Title="Login" Height="453" Width="376"   BorderBrush="Black" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" LeftWindowCommandsOverlayBehavior="Never" RightWindowCommandsOverlayBehavior="Never" ShowCloseButton="False" ShowMinButton="False" ShowMaxRestoreButton="False" ShowTitleBar="False" HorizontalAlignment="Center" HorizontalContentAlignment="Center">
+    <Grid ScrollViewer.CanContentScroll="True" Margin="0,-2,0,-7"  >
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFD32626" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle Height="35" VerticalAlignment="Top" Fill="White"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="286" Margin="47,90,0,0" VerticalAlignment="Top" Width="285" RadiusY="15" RadiusX="15"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Height="26" Margin="82,148,0,0" VerticalAlignment="Top" Width="72" FontSize="14"/>
+        <TextBox Controls:TextBoxHelper.Watermark="Ingrese un usuario" Name="txtusuario"  HorizontalAlignment="Left" Height="41" Margin="79,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" Background="{x:Null}" BorderBrush="#FF707070" RenderTransformOrigin="0.5,0.5" FontSize="16" BorderThickness="0,0,0,1">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Height="26" Margin="79,229,0,0" VerticalAlignment="Top" Width="79" FontSize="14"/>
+        <PasswordBox Controls:TextBoxHelper.Watermark="Ingrese una contraseña" Name="txtpasss" HorizontalAlignment="Left" Height="41" Margin="82,269,0,0" VerticalAlignment="Top" Width="211" Background="{x:Null}" BorderBrush="#FF707070" FontSize="16" BorderThickness="0,0,0,1"/>
+        <Button  Style="{DynamicResource SquareButtonStyle}"   Content="Ingresar" HorizontalAlignment="Left" Height="42" Margin="115,334,0,0" VerticalAlignment="Top" Width="136" Background="#FFF53B3B" BorderBrush="{x:Null}" Controls:ControlsHelper.ContentCharacterCasing="Upper" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="5" Y="5"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="103" Margin="211,69,0,0" VerticalAlignment="Top" Width="102" Source="img/login.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.452"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="¿No tienes una cuenta?" HorizontalAlignment="Left" Margin="39,407,0,0" Width="132" Height="29" VerticalAlignment="Top"/>
+        <Button Style="{DynamicResource SquareButtonStyle}" Content="Registrate aqui" HorizontalAlignment="Left" Height="29" Margin="198,407,0,0" VerticalAlignment="Top" Width="111" BorderBrush="{x:Null}" Background="{x:Null}" Controls:ControlsHelper.ContentCharacterCasing="Normal" Foreground="#FF141EE4"/>
+        <Button Name="close" Content="X" HorizontalAlignment="Left" Height="35" Margin="305,0,0,0" VerticalAlignment="Top" Width="71" Background="#FFD32626" BorderBrush="{x:Null}" FontSize="18" Click="close_Click" RenderTransformOrigin="0.704,-0.429"/>
+    </Grid>
+
+</Controls:MetroWindow>

@@ -1,0 +1,328 @@
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojAssemblyReference.cache
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.cache
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.CopyComplete
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Inventario.g.cs
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Inventario.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor.g.cs
+C:\Users\SAMSUNG\Desktop\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.Cache
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojResolveAssemblyReference.cache
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\WebCam_Capture.dll
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojResolveAssemblyReference.cache
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.Cache
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login2.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login2.baml
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.g.cs
+C:\Users\eduar\Escritorio\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\WebCam_Capture.dll
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojAssemblyReference.cache
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login2.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Login2.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.cache
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.CoreCompileInputs.cache
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.CopyComplete
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu2.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Menu2.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.g.cs
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.baml
+C:\Users\Meliodas\Documents\ESFE\proyecto 1.1.1\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\WebCam_Capture.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.baml
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.Cache
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.cache
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.compiled
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojResolveAssemblyReference.cache
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Window1.g.cs
+C:\Users\eduar\Escritorio\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Window1.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe.config
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.exe
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Diseño-UI.pdb
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\WebCam_Capture.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\ControlzEx.pdb
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.pdb
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\MahApps.Metro.xml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csprojResolveAssemblyReference.cache
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Resources\Icons.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Login.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Productos.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Window1.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\App.g.cs
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.cache
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI_MarkupCompile.lref
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\App.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\InventarioUI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Login.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Productos.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Window1.baml
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.g.resources
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño_UI.Properties.Resources.resources
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\Diseño-UI.csproj.GenerateResource.Cache
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.cache
+C:\Users\eduar\Escritorio\PROYECTO\proyecto 3.2.2\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.compiled
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\WebCam_Capture.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Imaging.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Math.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Window1.g.cs
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\EmpleadoUI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Empleado.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Menu_Gerente.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Presentacion_UI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Proveedor_UI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_empleado.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Inventario.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Reportes\Reporte_Productos.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Tipo_UI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Venta_UI.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\vReporte.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\Window1.baml
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.cache
+C:\Users\eduar\Escritorio\Modulo_WPF\Diseño-UI\obj\Debug\RdlCompile.compiled

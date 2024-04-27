@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import namespace="http://schemas.datacontract.org/2004/07/EN" />
+      <xs:element name="agregar_producto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q1:Producto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_productoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_productoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_producto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q2:Producto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_productoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_productoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_producto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q3:Producto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_productoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_productoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_producto">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_productoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_productoResult" nillable="true" type="q4:ArrayOfProducto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_producto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q5:Producto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_productoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_productoResult" nillable="true" type="q6:ArrayOfProducto" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_inventario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen3" nillable="true" type="q7:Inventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_inventarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_inventarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_inventario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen3" nillable="true" type="q8:Inventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_inventarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_inventarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_inventario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen3" nillable="true" type="q9:Inventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_inventarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_inventarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventario">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_inventarioResult" nillable="true" type="q10:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_inventario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen3" nillable="true" type="q11:Inventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_inventarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_inventarioResult" nillable="true" type="q12:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventartio_id">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pen3" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventartio_idResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_inventartio_idResult" nillable="true" type="q13:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Listar_Productos_carrito">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pen3" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Listar_Productos_carritoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="Listar_Productos_carritoResult" nillable="true" type="q14:Inventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventario_mujeres">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventario_mujeresResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_inventario_mujeresResult" nillable="true" type="q15:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventario_hombres">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_inventario_hombresResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_inventario_hombresResult" nillable="true" type="q16:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ventas_top">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ventas_topResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="ventas_topResult" nillable="true" type="q17:ArrayOfInventariob" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_tipo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q18:tipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_tipoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_tipoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_tipo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_tipoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_tipoResult" nillable="true" type="q19:ArrayOftipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_tipo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q20:tipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_tipoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_tipoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_tipo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q21:tipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_tipoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_tipoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_tipo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen4" nillable="true" type="q22:tipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_tipoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_tipoResult" nillable="true" type="q23:ArrayOftipo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_presentacion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen5" nillable="true" type="q24:presentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_presentacionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_presentacionResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_presentacion">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_presentacionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_presentacionResult" nillable="true" type="q25:ArrayOfpresentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_presentacion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen5" nillable="true" type="q26:presentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_presentacionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_presentacionResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_presentacion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen5" nillable="true" type="q27:presentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_presentacionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_presentacionResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_presentacion">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen5" nillable="true" type="q28:presentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_presentacionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_presentacionResult" nillable="true" type="q29:ArrayOfpresentacion" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_proveedor">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen6" nillable="true" type="q30:proveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_proveedorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_proveedorResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_proveedor">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen6" nillable="true" type="q31:proveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_proveedorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_proveedorResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_proveedor">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen6" nillable="true" type="q32:proveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_proveedorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_proveedorResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_proveedor">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_proveedorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_proveedorResult" nillable="true" type="q33:ArrayOfproveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_proveedor">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen6" nillable="true" type="q34:proveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_proveedorResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_proveedorResult" nillable="true" type="q35:ArrayOfproveedor" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_usuario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen7" nillable="true" type="q36:Usuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_usuarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_usuarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_usuario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen7" nillable="true" type="q37:Usuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_usuarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_usuarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="validar_usuario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen7" nillable="true" type="q38:Usuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="validar_usuarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validar_usuarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_usuario_correo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen7" nillable="true" type="q39:Usuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_usuario_correoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_usuario_correoResult" nillable="true" type="q40:ArrayOfUsuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_usuario_id">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="pen7" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_usuario_idResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_usuario_idResult" nillable="true" type="q41:ArrayOfUsuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_usuario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen7" nillable="true" type="q42:Usuario" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_usuarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_usuarioResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_sexo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen8" nillable="true" type="q43:sexo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_sexoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_sexoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_sexo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_sexoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_sexoResult" nillable="true" type="q44:ArrayOfsexo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_cargo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen9" nillable="true" type="q45:cargo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_cargoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_cargoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_cargo">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_cargoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_cargoResult" nillable="true" type="q46:ArrayOfcargo" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_empleado">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen10" nillable="true" type="q47:Empleado" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_empleadoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_empleadoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_empleado">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen10" nillable="true" type="q48:Empleado" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actualizar_empleadoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="actualizar_empleadoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_empleado">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen10" nillable="true" type="q49:Empleado" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="eliminar_empleadoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="eliminar_empleadoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_empleado">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_empleadoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_empleadoResult" nillable="true" type="q50:ArrayOfEmpleado" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="validar_empleado">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen10" nillable="true" type="q51:Empleado" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="validar_empleadoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="validar_empleadoResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_ventas">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen11" nillable="true" type="q52:ventas" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="agregar_ventasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="agregar_ventasResult" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_ventas">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="mostrar_ventasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="mostrar_ventasResult" nillable="true" type="q53:ArrayOfventas" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_ventas">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="pen11" nillable="true" type="q54:ventas" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="buscar_ventasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/EN" minOccurs="0" name="buscar_ventasResult" nillable="true" type="q55:ArrayOfventas" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="anyType" nillable="true" type="xs:anyType" />
+      <xs:element name="anyURI" nillable="true" type="xs:anyURI" />
+      <xs:element name="base64Binary" nillable="true" type="xs:base64Binary" />
+      <xs:element name="boolean" nillable="true" type="xs:boolean" />
+      <xs:element name="byte" nillable="true" type="xs:byte" />
+      <xs:element name="dateTime" nillable="true" type="xs:dateTime" />
+      <xs:element name="decimal" nillable="true" type="xs:decimal" />
+      <xs:element name="double" nillable="true" type="xs:double" />
+      <xs:element name="float" nillable="true" type="xs:float" />
+      <xs:element name="int" nillable="true" type="xs:int" />
+      <xs:element name="long" nillable="true" type="xs:long" />
+      <xs:element name="QName" nillable="true" type="xs:QName" />
+      <xs:element name="short" nillable="true" type="xs:short" />
+      <xs:element name="string" nillable="true" type="xs:string" />
+      <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte" />
+      <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt" />
+      <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong" />
+      <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort" />
+      <xs:element name="char" nillable="true" type="tns:char" />
+      <xs:simpleType name="char">
+        <xs:restriction base="xs:int" />
+      </xs:simpleType>
+      <xs:element name="duration" nillable="true" type="tns:duration" />
+      <xs:simpleType name="duration">
+        <xs:restriction base="xs:duration">
+          <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?" />
+          <xs:minInclusive value="-P10675199DT2H48M5.4775808S" />
+          <xs:maxInclusive value="P10675199DT2H48M5.4775807S" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="guid" nillable="true" type="tns:guid" />
+      <xs:simpleType name="guid">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:attribute name="FactoryType" type="xs:QName" />
+      <xs:attribute name="Id" type="xs:ID" />
+      <xs:attribute name="Ref" type="xs:IDREF" />
+    </xs:schema>
+    <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EN" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EN" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="Producto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="id_tipo" type="xs:long" />
+          <xs:element minOccurs="0" name="id_presentacion" type="xs:long" />
+          <xs:element minOccurs="0" name="Datatipo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DataPresentacion" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Producto" nillable="true" type="tns:Producto" />
+      <xs:complexType name="ArrayOfProducto">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Producto" nillable="true" type="tns:Producto" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfProducto" nillable="true" type="tns:ArrayOfProducto" />
+      <xs:complexType name="Inventariob">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="id_producto" type="xs:long" />
+          <xs:element minOccurs="0" name="Cantidad" type="xs:long" />
+          <xs:element minOccurs="0" name="Precio" type="xs:decimal" />
+          <xs:element minOccurs="0" name="id_proveedor" type="xs:long" />
+          <xs:element minOccurs="0" name="id_sexo" type="xs:int" />
+          <xs:element minOccurs="0" name="fecha_e" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="imagen" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="descripcion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DataProducto" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DataProveedor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Datasexo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Inventariob" nillable="true" type="tns:Inventariob" />
+      <xs:complexType name="ArrayOfInventariob">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Inventariob" nillable="true" type="tns:Inventariob" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfInventariob" nillable="true" type="tns:ArrayOfInventariob" />
+      <xs:complexType name="tipo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="tipo" nillable="true" type="tns:tipo" />
+      <xs:complexType name="ArrayOftipo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="tipo" nillable="true" type="tns:tipo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOftipo" nillable="true" type="tns:ArrayOftipo" />
+      <xs:complexType name="presentacion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="presentacion" nillable="true" type="tns:presentacion" />
+      <xs:complexType name="ArrayOfpresentacion">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="presentacion" nillable="true" type="tns:presentacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfpresentacion" nillable="true" type="tns:ArrayOfpresentacion" />
+      <xs:complexType name="proveedor">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="contacto" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="direcion" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="proveedor" nillable="true" type="tns:proveedor" />
+      <xs:complexType name="ArrayOfproveedor">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="proveedor" nillable="true" type="tns:proveedor" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfproveedor" nillable="true" type="tns:ArrayOfproveedor" />
+      <xs:complexType name="Usuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="apellido" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sexo" type="xs:int" />
+          <xs:element minOccurs="0" name="correo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="contraseña" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="imagen" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="Datasexo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
+      <xs:complexType name="ArrayOfUsuario">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Usuario" nillable="true" type="tns:Usuario" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfUsuario" nillable="true" type="tns:ArrayOfUsuario" />
+      <xs:complexType name="sexo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:int" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="sexo" nillable="true" type="tns:sexo" />
+      <xs:complexType name="ArrayOfsexo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="sexo" nillable="true" type="tns:sexo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfsexo" nillable="true" type="tns:ArrayOfsexo" />
+      <xs:complexType name="cargo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:int" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="cargo" nillable="true" type="tns:cargo" />
+      <xs:complexType name="ArrayOfcargo">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="cargo" nillable="true" type="tns:cargo" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfcargo" nillable="true" type="tns:ArrayOfcargo" />
+      <xs:complexType name="Empleado">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="apellido" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="sexo" type="xs:int" />
+          <xs:element minOccurs="0" name="dui" type="xs:int" />
+          <xs:element minOccurs="0" name="fecha_n" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="cargo" type="xs:int" />
+          <xs:element minOccurs="0" name="foto" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="nick" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="pass" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="datasexo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="datacargo" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Empleado" nillable="true" type="tns:Empleado" />
+      <xs:complexType name="ArrayOfEmpleado">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Empleado" nillable="true" type="tns:Empleado" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfEmpleado" nillable="true" type="tns:ArrayOfEmpleado" />
+      <xs:complexType name="ventas">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="cantidad" type="xs:long" />
+          <xs:element minOccurs="0" name="correo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="direccion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="id" type="xs:long" />
+          <xs:element minOccurs="0" name="id_producto" type="xs:long" />
+          <xs:element minOccurs="0" name="id_usuario" type="xs:long" />
+          <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="precio" type="xs:decimal" />
+          <xs:element minOccurs="0" name="total" type="xs:decimal" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ventas" nillable="true" type="tns:ventas" />
+      <xs:complexType name="ArrayOfventas">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ventas" nillable="true" type="tns:ventas" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfventas" nillable="true" type="tns:ArrayOfventas" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_agregar_producto_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_producto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_producto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_productoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_producto_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_producto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_producto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_productoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_producto_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_producto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_producto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_productoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_producto_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_producto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_producto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_productoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_producto_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_producto" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_producto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_productoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_inventario_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_inventario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_inventario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_inventarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_inventario_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_inventario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_inventario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_inventarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_inventario_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_inventario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_inventario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_inventarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_inventario_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_inventario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_inventario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_inventarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventartio_id_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventartio_id" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventartio_id_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventartio_idResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Listar_Productos_carrito_InputMessage">
+    <wsdl:part name="parameters" element="tns:Listar_Productos_carrito" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Listar_Productos_carrito_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Listar_Productos_carritoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_mujeres_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventario_mujeres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_mujeres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventario_mujeresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_hombres_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventario_hombres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_inventario_hombres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_inventario_hombresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ventas_top_InputMessage">
+    <wsdl:part name="parameters" element="tns:ventas_top" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ventas_top_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ventas_topResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_tipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_tipo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_tipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_tipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_tipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_tipo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_tipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_tipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_tipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_tipo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_tipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_tipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_tipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_tipo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_tipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_tipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_tipo_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_tipo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_tipo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_tipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_presentacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_presentacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_presentacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_presentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_presentacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_presentacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_presentacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_presentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_presentacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_presentacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_presentacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_presentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_presentacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_presentacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_presentacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_presentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_presentacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_presentacion" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_presentacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_presentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_proveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_proveedor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_proveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_proveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_proveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_proveedor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_proveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_proveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_proveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_proveedor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_proveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_proveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_proveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_proveedor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_proveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_proveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_proveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_proveedor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_proveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_proveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_usuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_usuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_usuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_usuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_usuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_usuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_usuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_usuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_validar_usuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:validar_usuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_validar_usuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:validar_usuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_usuario_correo_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_usuario_correo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_usuario_correo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_usuario_correoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_usuario_id_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_usuario_id" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_usuario_id_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_usuario_idResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_usuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_usuario" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_usuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_usuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_sexo_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_sexo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_sexo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_sexoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_sexo_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_sexo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_sexo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_sexoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_cargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_cargo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_cargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_cargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_cargo_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_cargo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_cargo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_cargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_empleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_empleado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_empleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_empleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_empleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_empleado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actualizar_empleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actualizar_empleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_empleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_empleado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_eliminar_empleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminar_empleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_empleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_empleado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_empleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_empleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_validar_empleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:validar_empleado" />
+  </wsdl:message>
+  <wsdl:message name="IService1_validar_empleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:validar_empleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_ventas_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_ventas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_agregar_ventas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregar_ventasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_ventas_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_ventas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_mostrar_ventas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrar_ventasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_ventas_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_ventas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_buscar_ventas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscar_ventasResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="agregar_producto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_producto" message="tns:IService1_agregar_producto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_productoResponse" message="tns:IService1_agregar_producto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_producto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_producto" message="tns:IService1_actualizar_producto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_productoResponse" message="tns:IService1_actualizar_producto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_producto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_producto" message="tns:IService1_eliminar_producto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_productoResponse" message="tns:IService1_eliminar_producto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_producto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_producto" message="tns:IService1_mostrar_producto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_productoResponse" message="tns:IService1_mostrar_producto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_producto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_producto" message="tns:IService1_buscar_producto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_productoResponse" message="tns:IService1_buscar_producto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_inventario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_inventario" message="tns:IService1_agregar_inventario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_inventarioResponse" message="tns:IService1_agregar_inventario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_inventario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_inventario" message="tns:IService1_actualizar_inventario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_inventarioResponse" message="tns:IService1_actualizar_inventario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_inventario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_inventario" message="tns:IService1_eliminar_inventario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_inventarioResponse" message="tns:IService1_eliminar_inventario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_inventario" message="tns:IService1_mostrar_inventario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_inventarioResponse" message="tns:IService1_mostrar_inventario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_inventario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_inventario" message="tns:IService1_buscar_inventario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_inventarioResponse" message="tns:IService1_buscar_inventario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventartio_id">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_inventartio_id" message="tns:IService1_mostrar_inventartio_id_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_inventartio_idResponse" message="tns:IService1_mostrar_inventartio_id_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Productos_carrito">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Listar_Productos_carrito" message="tns:IService1_Listar_Productos_carrito_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Listar_Productos_carritoResponse" message="tns:IService1_Listar_Productos_carrito_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario_mujeres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_inventario_mujeres" message="tns:IService1_mostrar_inventario_mujeres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_inventario_mujeresResponse" message="tns:IService1_mostrar_inventario_mujeres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario_hombres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_inventario_hombres" message="tns:IService1_mostrar_inventario_hombres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_inventario_hombresResponse" message="tns:IService1_mostrar_inventario_hombres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ventas_top">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ventas_top" message="tns:IService1_ventas_top_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ventas_topResponse" message="tns:IService1_ventas_top_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_tipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_tipo" message="tns:IService1_agregar_tipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_tipoResponse" message="tns:IService1_agregar_tipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_tipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_tipo" message="tns:IService1_mostrar_tipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_tipoResponse" message="tns:IService1_mostrar_tipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_tipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_tipo" message="tns:IService1_actualizar_tipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_tipoResponse" message="tns:IService1_actualizar_tipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_tipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_tipo" message="tns:IService1_eliminar_tipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_tipoResponse" message="tns:IService1_eliminar_tipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_tipo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_tipo" message="tns:IService1_buscar_tipo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_tipoResponse" message="tns:IService1_buscar_tipo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_presentacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_presentacion" message="tns:IService1_agregar_presentacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_presentacionResponse" message="tns:IService1_agregar_presentacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_presentacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_presentacion" message="tns:IService1_mostrar_presentacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_presentacionResponse" message="tns:IService1_mostrar_presentacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_presentacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_presentacion" message="tns:IService1_actualizar_presentacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_presentacionResponse" message="tns:IService1_actualizar_presentacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_presentacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_presentacion" message="tns:IService1_eliminar_presentacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_presentacionResponse" message="tns:IService1_eliminar_presentacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_presentacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_presentacion" message="tns:IService1_buscar_presentacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_presentacionResponse" message="tns:IService1_buscar_presentacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_proveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_proveedor" message="tns:IService1_agregar_proveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_proveedorResponse" message="tns:IService1_agregar_proveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_proveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_proveedor" message="tns:IService1_actualizar_proveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_proveedorResponse" message="tns:IService1_actualizar_proveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_proveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_proveedor" message="tns:IService1_eliminar_proveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_proveedorResponse" message="tns:IService1_eliminar_proveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_proveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_proveedor" message="tns:IService1_mostrar_proveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_proveedorResponse" message="tns:IService1_mostrar_proveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_proveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_proveedor" message="tns:IService1_buscar_proveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_proveedorResponse" message="tns:IService1_buscar_proveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_usuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_usuario" message="tns:IService1_agregar_usuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_usuarioResponse" message="tns:IService1_agregar_usuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_usuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_usuario" message="tns:IService1_eliminar_usuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_usuarioResponse" message="tns:IService1_eliminar_usuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="validar_usuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/validar_usuario" message="tns:IService1_validar_usuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/validar_usuarioResponse" message="tns:IService1_validar_usuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_usuario_correo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_usuario_correo" message="tns:IService1_mostrar_usuario_correo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_usuario_correoResponse" message="tns:IService1_mostrar_usuario_correo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_usuario_id">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_usuario_id" message="tns:IService1_mostrar_usuario_id_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_usuario_idResponse" message="tns:IService1_mostrar_usuario_id_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_usuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_usuario" message="tns:IService1_actualizar_usuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_usuarioResponse" message="tns:IService1_actualizar_usuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_sexo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_sexo" message="tns:IService1_agregar_sexo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_sexoResponse" message="tns:IService1_agregar_sexo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_sexo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_sexo" message="tns:IService1_mostrar_sexo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_sexoResponse" message="tns:IService1_mostrar_sexo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_cargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_cargo" message="tns:IService1_agregar_cargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_cargoResponse" message="tns:IService1_agregar_cargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_cargo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_cargo" message="tns:IService1_mostrar_cargo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_cargoResponse" message="tns:IService1_mostrar_cargo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_empleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_empleado" message="tns:IService1_agregar_empleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_empleadoResponse" message="tns:IService1_agregar_empleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_empleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actualizar_empleado" message="tns:IService1_actualizar_empleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actualizar_empleadoResponse" message="tns:IService1_actualizar_empleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_empleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/eliminar_empleado" message="tns:IService1_eliminar_empleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/eliminar_empleadoResponse" message="tns:IService1_eliminar_empleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_empleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_empleado" message="tns:IService1_mostrar_empleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_empleadoResponse" message="tns:IService1_mostrar_empleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="validar_empleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/validar_empleado" message="tns:IService1_validar_empleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/validar_empleadoResponse" message="tns:IService1_validar_empleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregar_ventas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/agregar_ventas" message="tns:IService1_agregar_ventas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/agregar_ventasResponse" message="tns:IService1_agregar_ventas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_ventas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/mostrar_ventas" message="tns:IService1_mostrar_ventas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/mostrar_ventasResponse" message="tns:IService1_mostrar_ventas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscar_ventas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/buscar_ventas" message="tns:IService1_buscar_ventas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/buscar_ventasResponse" message="tns:IService1_buscar_ventas_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="agregar_producto">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_producto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_producto">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_producto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_producto">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_producto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_producto">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_producto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_producto">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_producto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_inventario">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_inventario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_inventario">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_inventario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_inventario">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_inventario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_inventario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_inventario">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_inventario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventartio_id">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_inventartio_id" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Listar_Productos_carrito">
+      <soap:operation soapAction="http://tempuri.org/IService1/Listar_Productos_carrito" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario_mujeres">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_inventario_mujeres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_inventario_hombres">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_inventario_hombres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ventas_top">
+      <soap:operation soapAction="http://tempuri.org/IService1/ventas_top" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_tipo">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_tipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_tipo">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_tipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_tipo">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_tipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_tipo">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_tipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_tipo">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_tipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_presentacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_presentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_presentacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_presentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_presentacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_presentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_presentacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_presentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_presentacion">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_presentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_proveedor">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_proveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_proveedor">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_proveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_proveedor">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_proveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_proveedor">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_proveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_proveedor">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_proveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_usuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_usuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_usuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_usuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validar_usuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/validar_usuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_usuario_correo">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_usuario_correo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_usuario_id">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_usuario_id" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_usuario">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_usuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_sexo">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_sexo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_sexo">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_sexo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_cargo">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_cargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_cargo">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_cargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_empleado">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_empleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actualizar_empleado">
+      <soap:operation soapAction="http://tempuri.org/IService1/actualizar_empleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminar_empleado">
+      <soap:operation soapAction="http://tempuri.org/IService1/eliminar_empleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_empleado">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_empleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validar_empleado">
+      <soap:operation soapAction="http://tempuri.org/IService1/validar_empleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregar_ventas">
+      <soap:operation soapAction="http://tempuri.org/IService1/agregar_ventas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrar_ventas">
+      <soap:operation soapAction="http://tempuri.org/IService1/mostrar_ventas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscar_ventas">
+      <soap:operation soapAction="http://tempuri.org/IService1/buscar_ventas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://laptop-qfg60lf9:8083/WcfServiceLibrary.Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

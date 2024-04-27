@@ -1,0 +1,17 @@
+﻿<Window x:Class="Diseño_UI.Reportes.Reporte_empleado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diseño_UI.Reportes"
+         xmlns:viewer="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+        mc:Ignorable="d"
+        Title="Reporte_empleado" Height="225" Width="470" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid >
+        <WindowsFormsHost>
+            <viewer:ReportViewer x:Name="viewerInstance" AutoSize="True" AutoSizeMode="GrowOnly" Anchor="Top" Dock="Top">
+
+            </viewer:ReportViewer>
+        </WindowsFormsHost>
+    </Grid>
+</Window>

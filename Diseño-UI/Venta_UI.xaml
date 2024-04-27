@@ -1,0 +1,30 @@
+﻿<Controls:MetroWindow x:Class="Diseño_UI.Venta_UI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diseño_UI"
+         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        
+        Title="Venta_UI" Height="650" Width="850" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" IsCloseButtonEnabled="False" ShowTitleBar="False" ShowCloseButton="False" ShowMinButton="False" ShowMaxRestoreButton="False" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False">
+    <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="850" Background="#FF161617" Opacity="0.66">
+            <Button x:Name="btncloseeem_Copy1" Content="X" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Background="#FFD32626" Height="46" FontSize="20" BorderBrush="{x:Null}" Margin="755,-1,-1,-1" FontWeight="Bold" Click="btncloseeem_Copy1_Click"  />
+        </Border>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="76,81,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox Controls:TextBoxHelper.Watermark="Ingrese un Correo" HorizontalAlignment="Left" Height="43" Margin="215,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" FontSize="18" BorderThickness="0,0,0,1" BorderBrush="#FF000002" Name="txtBuscar_venta" TextChanged="txtBuscar_venta_TextChanged"/>
+        <DataGrid x:Name="dgventas"  AutoGenerateColumns="False" HorizontalAlignment="Left" Height="447" Margin="56,147,0,0" VerticalAlignment="Top" Width="711" FontSize="14">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding nombre}" Header="Nombre"/>
+                <DataGridTextColumn Binding="{Binding correo}" Header="correo"/>
+                <DataGridTextColumn Binding="{Binding precio}" Header="precio"/>
+                <DataGridTextColumn Binding="{Binding cantidad}" Header="Cantidad"/>
+                <DataGridTextColumn Binding="{Binding total}" Header="Total"/>
+                <DataGridTextColumn Binding="{Binding direccion}" Header="direccion"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Controls:MetroWindow>

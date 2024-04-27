@@ -1,0 +1,36 @@
+﻿<Controls:MetroWindow x:Class="Diseño_UI.Tipo_UI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diseño_UI"
+         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="Tipo_UI" Height="650" Width="850" WindowStyle="None" IsCloseButtonEnabled="False" IsMinButtonEnabled="False" IsMaxRestoreButtonEnabled="False" ShowCloseButton="False" ShowTitleBar="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="855" Background="Black" Opacity="0.66">
+            <Button x:Name="button_clo" HorizontalAlignment="Left" Height="46" Margin="761,-1,-1,-1" VerticalAlignment="Top" Width="93" Background="#FFD32626" BorderBrush="{x:Null}" Content="X" FontWeight="Bold" FontSize="20" Click="button_clo_Click" />
+        </Border>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="132,91,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <DataGrid Name="dgTipo" HorizontalAlignment="Left" Height="219" Margin="119,166,0,0" VerticalAlignment="Top" Width="644" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dgTipo_SelectionChanged" FontSize="14"   >
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn ElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        EditingElementStyle="{DynamicResource MetroDataGridCheckBox}"
+                                        Header="Selected"
+                                        Binding="{Binding RelativeSource={RelativeSource AncestorType=DataGridRow}, Path=IsSelected, Mode=OneWay}"
+                                        />
+                <DataGridTextColumn Binding="{Binding nombre}" Header="Nombre_Tipo" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="* Nombre" HorizontalAlignment="Left" Margin="119,473,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox Name="txtNombre" HorizontalAlignment="Left" Height="42" Margin="233,462,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" FontSize="18" BorderThickness="0,0,0,1" BorderBrush="#FF000002"/>
+        <Button Name="txtagregar" Content="agregar" HorizontalAlignment="Left" Margin="132,588,0,0" VerticalAlignment="Top" Width="94" FontWeight="Bold" Background="#FFD32626" Controls:ControlsHelper.ContentCharacterCasing="Upper" RenderTransformOrigin="0.073,5.172" FontSize="14" Click="txtagregar_Click"/>
+        <Button Name="btnactualizar" Content="actualizar" HorizontalAlignment="Left" Margin="263,588,0,0" VerticalAlignment="Top" Width="112" FontWeight="Bold" Background="#FFD32626" Controls:ControlsHelper.ContentCharacterCasing="Upper" RenderTransformOrigin="0.073,5.172" FontSize="14" Click="btnactualizar_Click"/>
+        <Button Name="btneliminar" Content="eliminar" HorizontalAlignment="Left" Margin="420,588,0,0" VerticalAlignment="Top" Width="107" FontWeight="Bold" Background="#FFD32626" Controls:ControlsHelper.ContentCharacterCasing="Upper" RenderTransformOrigin="0.073,5.172" FontSize="14" Click="btneliminar_Click"/>
+        <Button Name="btnlimpiar" Content="limpiar" HorizontalAlignment="Left" Margin="565,588,0,0" VerticalAlignment="Top" Width="81" FontWeight="Bold" Background="#FFD32626" Controls:ControlsHelper.ContentCharacterCasing="Upper" RenderTransformOrigin="0.073,5.172" FontSize="14" Click="btnlimpiar_Click"/>
+        <TextBox Controls:TextBoxHelper.Watermark="Ingrese un nombre" x:Name="txtbuscar" HorizontalAlignment="Left" Height="37" Margin="209,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="417" TextChanged="txtbuscar_TextChanged" FontSize="16" BorderThickness="0,0,0,1" BorderBrush="#FF000002" />
+        <Label x:Name="label" Content="*Doble click sobre el dato selecionado Para actualizar" HorizontalAlignment="Left" Margin="263,429,0,0" VerticalAlignment="Top" Width="295" Height="28" RenderTransformOrigin="0.5,0.5"/>
+
+    </Grid>
+</Controls:MetroWindow>

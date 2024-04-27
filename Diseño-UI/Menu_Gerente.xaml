@@ -1,0 +1,72 @@
+﻿<Controls:MetroWindow x:Class="Diseño_UI.Menu_Gerente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diseño_UI"
+                      xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+               xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d" Height="650" Width="1180" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" ShowIconOnTitleBar="False" ShowTitleBar="False" IsCloseButtonEnabled="False" ShowCloseButton="False">
+
+    <Grid>
+        <Controls:Tile x:Name="tile_venta" Title="Venta"  Margin="36,78,862,30" Height="Auto" Width="Auto" Click="tile_venta_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Image x:Name="image" Height="277" Width="188" Source="img/carro.png" >
+
+            </Image>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_inventario" Title="Inventario" FontSize="20" Margin="354,78,350,337" Height="Auto" Width="Auto" Click="tile_inventario_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Grid/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_empleado" Title="Empleado" Margin="354,330,558,35" Height="Auto" Width="Auto" Click="tile_empleado_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Grid/>
+        </Controls:Tile>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="1180">
+            <Border.Background>
+                <SolidColorBrush Color="#FF161617" Opacity="0.66"/>
+            </Border.Background>
+            <Button x:Name="btnclosesalir" Content="X" HorizontalAlignment="Left" VerticalAlignment="Top" Width="94" Background="{x:Null}" Height="53" FontSize="20" BorderBrush="{x:Null}" Margin="1085,-1,-1,-1" FontWeight="Bold" Click="btnclosesalir_Click"  />
+        </Border>
+        <Controls:Tile x:Name="tile_producto1" Title="Producto" Margin="884,78,56,337" Height="Auto" Width="Auto" Click="tile_producto1_Click" Background="#FFD32626" >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Grid/>
+        </Controls:Tile>
+        <Image HorizontalAlignment="Left" Height="163" Margin="530,106,0,0" VerticalAlignment="Top" Width="174" Source="img/sinventario.png" RenderTransformOrigin="1.09,-0.77" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="158" Margin="420,374,0,0" VerticalAlignment="Top" Width="162" Source="img/objetivo.png"/>
+        <Image HorizontalAlignment="Left" Height="147" Margin="942,106,0,0" VerticalAlignment="Top" Width="146" Source="img/bolsas-de-la-compra.png"/>
+        <Controls:Tile x:Name="tile_tipo" Title="Tipo" Margin="884,471,56,35" Height="Auto" Width="Auto" Click="tile_tipo_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Grid/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_presentacion" Title="Presentacion" Margin="884,335,56,197" Height="Auto" Width="Auto" Click="tile_presentacion_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+            <Grid/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="tile_provedor" Title="Proveedor" Margin="653,335,350,30" Height="Auto" Width="Auto" RenderTransformOrigin="0.548,0.125" BorderBrush="Black" Click="tile_provedor_Click" Background="#FFD32626"  >
+            <Controls:Tile.Effect>
+                <DropShadowEffect/>
+            </Controls:Tile.Effect>
+
+        </Controls:Tile>
+        <Image HorizontalAlignment="Left" Height="100" Margin="530,498,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="680,368,0,0" VerticalAlignment="Top" Width="135" Source="img/abastecimiento.png"/>
+        <Image HorizontalAlignment="Left" Height="79" Margin="1002,341,0,0" VerticalAlignment="Top" Width="86" Source="img/productos.png"/>
+        <Image HorizontalAlignment="Left" Height="79" Margin="1002,483,0,0" VerticalAlignment="Top" Width="86" Source="img/granja.png"/>
+        <Image x:Name="img_reporte" HorizontalAlignment="Left" Height="33" Margin="1035,10,0,0" VerticalAlignment="Top" Width="57" Source="img/growth.png" MouseDown="img_reporte_MouseDown" />
+
+    </Grid>
+</Controls:MetroWindow>
